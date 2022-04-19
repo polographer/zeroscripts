@@ -13,7 +13,7 @@ else
 		echo "Heavy process started"
 		opts="--search-existing"
 	fi	
-	python3 -m bdfr download ~/downloads/rddownload2/ --saved --authenticate --user me --no-dupes ${opts} --folder-scheme '{REDDITOR}' --file-scheme '{SUBREDDIT}_{POSTID}'
+	python3 -m bdfr download ~/Downloads/rddownload2/ --saved --authenticate --user me --no-dupes ${opts} --folder-scheme '{REDDITOR}' --file-scheme '{SUBREDDIT}_{POSTID}'
 fi
 END=`date`
 echo "ended at ${END}"
